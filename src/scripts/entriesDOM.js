@@ -1,4 +1,4 @@
-import components from "./entryComponent.js"
+import makeComponents from "./entryComponent.js"
 /*
     Purpose: To render all journal entries to the DOM
 
@@ -8,7 +8,7 @@ const renderDom = {
   renderJournalEntries(entries) {
     let HtmlForAllEntries = ""
     entries.forEach(entry => {
-      const entryHtml = components.makeJournalEntryComponent(entry)
+      const entryHtml = makeComponents.makeJournalEntryComponent(entry)
       HtmlForAllEntries += entryHtml
     })
     const logArticle = document.querySelector(".entryLog")

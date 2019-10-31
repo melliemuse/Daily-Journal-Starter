@@ -1,8 +1,12 @@
 import data from "./data.js"
 import dom from "./entriesDOM.js"
+import radioButton from './event-listeners.js'
 
 data.getJournalEntries()
     .then(response => dom.renderJournalEntries(response))
+
+   
+    
 
 const captureInput = (date, concept, entry, mood) => {
     return {
@@ -20,6 +24,7 @@ button.addEventListener('click', () => {
     const concept = document.querySelector('.concepts').value;
     const entry = document.querySelector('textarea').value;
     const mood = document.querySelector('option').value
+    
 
     if (date !== '' && concept !== '' && entry !== '' && mood !== '') {
         // Invoke the factory function, passing along the form field values
@@ -37,3 +42,5 @@ button.addEventListener('click', () => {
         // })
     }
 })
+
+radioButton()

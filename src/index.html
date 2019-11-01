@@ -10,7 +10,7 @@
 </head>
 
 <body>
-
+    
     <h1>Daily Journal</h1>
 
     <form>
@@ -27,12 +27,28 @@
             <textarea name="entry-input" required></textarea>
         </fieldset>
         <fieldset>
-            <label for="mood-input">Mood</label>
-            <select class="mood" name="mood-input" required>
-                <option value="Amazing">Amazing</option>
-                <option value="Great">Great</option>
-                <option value="Ok">Ok</option>
-            </select>
+                <label for="mood-input">Mood</label>
+                <select class="mood" name="mood-input" required>
+                    <option value="Amazing">Amazing</option>
+                    <option value="Great">Great</option>
+                    <option value="Ok">Ok</option>
+                </select>
+            </fieldset>
+        <fieldset>
+            <legend>Mood</legend>
+            <div>
+                <input type="radio" name='mood' id='Amazing' value='Amazing'>
+                <label for="Amazing">Amazing</label>
+            </div>
+            <div>
+                <input type="radio" name='mood' id='Great' value='Great'>
+                <label for="Great">Great</label>
+            </div>
+            <div>
+                <input type="radio" name='mood' id='Ok' value='Ok'>
+                <label for="Ok">Ok</label>
+            </div>
+            
         </fieldset>
         
     </form>

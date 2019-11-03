@@ -1,74 +1,25 @@
 {
   "entries": [
     {
-      "id": 1,
-      "date": "07/24/2018",
-      "concept": "Array methods",
-      "entry": "We learned about 4 different array methods today. forEach made sense, but the others still confuse me.",
-      "mood": "Ok"
-    },
-    {
-      "id": 2,
-      "date": "08/02/2018",
-      "concept": "Fetch calls",
-      "entry": "How to get data from an API",
-      "mood": "Ok"
-    },
-    {
-      "id": 3,
-      "date": "07/07/2018",
-      "concept": "CSS Selectors",
-      "entry": "How to use classes and ids to apply CSS to elements on the DOM",
-      "mood": "Ok"
-    },
-    {
-      "date": "2019-10-23",
-      "concept": "zgbddh",
-      "entry": "gdf",
+      "date": "2019-11-13",
+      "concept": "Disney TM",
+      "entry": "Evil Queens",
       "mood": "Amazing",
+      "id": 2
+    },
+    {
+      "date": "2019-11-29",
+      "concept": "Parallax Conversion gsfg",
+      "entry": "Ya know",
+      "mood": "Ok",
+      "id": 3
+    },
+    {
+      "date": "2019-11-28",
+      "concept": "Teensy baby penguins",
+      "entry": "They're cute!!",
+      "mood": "Great",
       "id": 4
-    },
-    {
-      "date": "2019-10-30",
-      "concept": "posting",
-      "entry": "dfs",
-      "mood": "Amazing",
-      "id": 5
-    },
-    {
-      "date": "2019-10-31",
-      "concept": "DOES IT WORK!!???",
-      "entry": "I hope so!!!",
-      "mood": "Amazing",
-      "id": 6
-    },
-    {
-      "date": "2019-10-30",
-      "concept": "testing array",
-      "entry": "filler",
-      "mood": "Amazing",
-      "id": 7
-    },
-    {
-      "date": "2019-10-30",
-      "concept": "test array again",
-      "entry": "took out auto reload",
-      "mood": "Amazing",
-      "id": 8
-    },
-    {
-      "date": "2019-10-23",
-      "concept": "posting",
-      "entry": "btrj",
-      "mood": "Amazing",
-      "id": 9
-    },
-    {
-      "date": "2019-10-31",
-      "concept": "TESTING",
-      "entry": "test",
-      "mood": "Amazing",
-      "id": 10
     }
   ]
 }

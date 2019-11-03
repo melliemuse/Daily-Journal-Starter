@@ -5,54 +5,16 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <script src="https://kit.fontawesome.com/0790c6db62.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="./styles/main.css">
     <title>Document</title>
 </head>
 
 <body>
-    
-    <h1>Daily Journal</h1>
 
-    <form>
-        <fieldset>
-            <label for="date-input">Date of entry</label>
-            <input class='date' type="date" name="date-input"  required>
-        </fieldset>
-        <fieldset>
-            <label for="concept-input">Concepts covered</label>
-            <input class='concepts' type="text" name="concept-input" pattern="[A-Za-z0-9\(\)\{\};:\s]" title="Only numbers, letters and () {} are allowed"  required>
-        </fieldset>
-        <fieldset>
-            <label for="entry-input">Journal entry</label>
-            <textarea name="entry-input" required></textarea>
-        </fieldset>
-        <fieldset>
-                <label for="mood-input">Mood</label>
-                <select class="mood" name="mood-input" required>
-                    <option value="Amazing">Amazing</option>
-                    <option value="Great">Great</option>
-                    <option value="Ok">Ok</option>
-                </select>
-            </fieldset>
-        <fieldset>
-            <legend>Mood</legend>
-            <div>
-                <input type="radio" name='mood' id='Amazing' value='Amazing'>
-                <label for="Amazing">Amazing</label>
-            </div>
-            <div>
-                <input type="radio" name='mood' id='Great' value='Great'>
-                <label for="Great">Great</label>
-            </div>
-            <div>
-                <input type="radio" name='mood' id='Ok' value='Ok'>
-                <label for="Ok">Ok</label>
-            </div>
-            
-        </fieldset>
-        
-    </form>
-    <button>Record Journal Entry</button>
+    <h1>Daily Journal</h1>
+<main class="contents"></main>
+   
     <article class="entryLog">
 
     </article>

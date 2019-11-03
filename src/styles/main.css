@@ -1,0 +1,14 @@
+.hide {
+    display: none;
+}
+
+i {
+    padding: 0 5px;
+}
+
+form:last-of-type {
+    padding-top: 20px;
+}
+.recordButton {
+    margin-top: 15px;
+}

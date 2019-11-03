@@ -8,7 +8,8 @@ const entryManager = {
         <p>${journalEntry.entry}</p>
         <p>${journalEntry.mood}</p>
         <p>${journalEntry.date}</p>
-        <button class='deleteButton' id='deleteButton--${journalEntry.id}'>Delete Entry</button>
+        <i class='deleteButton fas fa-trash-alt' id='deleteButton--${journalEntry.id}'></i>
+        <i class='editButton fas fa-pen' id='editButton--${journalEntry.id}'></i>
       </section>
      
     `
